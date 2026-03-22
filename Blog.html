@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>  
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Our Certificates & online programs </h1>
+</section>    
+
+
+<!--------blog content-------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Top 10 Online Certificate And Diploma Programs </h2>
+            <p>Our top online programs include Computer Programming, Data Science, Digital Marketing, Business Management, and Accounting, designed to build strong technical and professional skills.</p>
+            <br>
+            <p>We also offer Cybersecurity, Web Development, Graphic Design, Healthcare Support, and Communication Skills to meet today’s industry demands.</p>
+            <br>
+            <p>These certificate and diploma courses provide flexible, self-paced learning with practical training to help students grow their careers anytime, anywhere.</p>
+            
+        
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder=" your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                 </form>
+            </div>
+
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>13</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>14</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Artificial Intelligence</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>Data Analytics</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>10</span>
+            </div>
+        </div>
+    </div>
+</section>
+        
+
+
+
+<!--------footer section-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to providing quality education, modern facilities, and a supportive environment that helps students grow academically, professionally, and personally.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by khasim</p>
+</section>
+
+
+
+
+
+    <!--------javaScript for toggle menu-------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+        
+        
+
+</body>
+</html>
